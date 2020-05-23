@@ -15,4 +15,4 @@ collections:
         file: "content/data.ndtl"
         description: "General Site Settings"
         fields:
-          - { label: Text, name: text, required: true, widget: text }
+          - { label: Text, name: text, required: true, widget: string }
