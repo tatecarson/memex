@@ -4,6 +4,13 @@ backend:
 media_folder: content/media
 public_folder: content/media
 collections:
-  - name: "database"
-    label: "Database"
-    default: "/content/data.ndtl"
+  - name: "settings"
+    label: "Settings"
+    delete: false # Prevent users from deleting documents in this collection
+    editor:
+      preview: true
+    files:
+      - name: "general"
+        label: "Site Settings"
+        file: "content/data.ndtl"
+        description: "General Site Settings"
