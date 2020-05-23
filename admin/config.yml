@@ -6,10 +6,4 @@ public_folder: content/media
 collections:
   - name: "database"
     label: "Database"
-    folder: "content"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    editor:
-      preview: false
-    fields:
-      - { label: "Body", name: "body", widget: "text" }
+    default: "/content/data.ndtl"
