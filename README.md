@@ -49,32 +49,32 @@ Stored in a human-readable, flat-file database called [Indental](https://wiki.xx
 
 [memex/content/settings.js](content/settings.js)
 
-| Setting  | Description |
-|            ---: | :---                                                                                                |
-|    STATSNUMTAGS | max limit of tags to show in menu                                                                   |
-|    STATSNUMTYPE | max limit of types to show in menu                                                                  |
-|     LOADANIMNUM | threshold number of articles in query/displayed to trigger loading animation to display             |
-|     WIDEARTICLE | allow wide entries (`WIDE : true`)                                                                  |
-| AUTOWIDETRIGGER | automatically wide entry if it has more QOTE entries than this number                               |
-|      USEMASONRY | enable [masonry](https://masonry.desandro.com/) layout library usage                                |
-| MASONRYPROGRESS | masonry re-layout as images load (true), or only once all images complete (false)                   |
-|   ARTICLEIDBASE | CSS name prefix                                                                                     |
-|       SHOWUPPER | toggle display of upper entry element(s)                                                            |
-|       SHOWTITLE | toggle display of entry title                                                                       |
-|        SHOWAUTH | toggle display of entry author(s)                                                                   |
-|        SHOWTYPE | toggle display of entry type(s)                                                                     |
-|        SHOWLINK | toggle display of entry link(s)                                                                     |
-|       SHOWLOWER | toggle display of lower entry element(s)                                                            |
-|        SHOWTAGS | toggle display of entry tag(s)                                                                      |
-|        SHOWPROJ | toggle display of entry project(s)                                                                  |
-|        SHOWNOTE | toggle display of entry notes                                                                       |
-|        SHOWQOTE | toggle display of entry quote(s)                                                                    |
-|        SHOWTERM | toggle display of entry term(s)                                                                     |
-|        SHOWDONE | toggle display of menu done (tick/cross)                                                            |
-|        SHOWPROG | toggle display of entry progress notes                                                              |
-|        SHOWIMAG | toggle display of entry image                                                                       |
-|        SHOWFILE | toggle display of entry file(s)                                                                     |
-|     SHOWOVERLAY | toggle display of dark overlay shown when hovering image type entries to improve text readability   |
+|         Setting | Description                                                                                       |
+| --------------: | :------------------------------------------------------------------------------------------------ |
+|    STATSNUMTAGS | max limit of tags to show in menu                                                                 |
+|    STATSNUMTYPE | max limit of types to show in menu                                                                |
+|     LOADANIMNUM | threshold number of articles in query/displayed to trigger loading animation to display           |
+|     WIDEARTICLE | allow wide entries (`WIDE : true`)                                                                |
+| AUTOWIDETRIGGER | automatically wide entry if it has more QOTE entries than this number                             |
+|      USEMASONRY | enable [masonry](https://masonry.desandro.com/) layout library usage                              |
+| MASONRYPROGRESS | masonry re-layout as images load (true), or only once all images complete (false)                 |
+|   ARTICLEIDBASE | CSS name prefix                                                                                   |
+|       SHOWUPPER | toggle display of upper entry element(s)                                                          |
+|       SHOWTITLE | toggle display of entry title                                                                     |
+|        SHOWAUTH | toggle display of entry author(s)                                                                 |
+|        SHOWTYPE | toggle display of entry type(s)                                                                   |
+|        SHOWLINK | toggle display of entry link(s)                                                                   |
+|       SHOWLOWER | toggle display of lower entry element(s)                                                          |
+|        SHOWTAGS | toggle display of entry tag(s)                                                                    |
+|        SHOWPROJ | toggle display of entry project(s)                                                                |
+|        SHOWNOTE | toggle display of entry notes                                                                     |
+|        SHOWQOTE | toggle display of entry quote(s)                                                                  |
+|        SHOWTERM | toggle display of entry term(s)                                                                   |
+|        SHOWDONE | toggle display of menu done (tick/cross)                                                          |
+|        SHOWPROG | toggle display of entry progress notes                                                            |
+|        SHOWIMAG | toggle display of entry image                                                                     |
+|        SHOWFILE | toggle display of entry file(s)                                                                   |
+|     SHOWOVERLAY | toggle display of dark overlay shown when hovering image type entries to improve text readability |
 
 ### Dependencies
 
@@ -97,3 +97,30 @@ Stored in a human-readable, flat-file database called [Indental](https://wiki.xx
 Hamish MacDonald
 
 **[Twitter](https://twitter.com/kormyen)** &middot; **[Home](https://kor.nz)**
+
+## Types: 
+ 'article': ico
+ 'podcast': i
+ 'video
+ 'list': ic
+ 'book': ico
+ 'game': i
+ 'service': 
+ 'lecture': icon = 'fas 
+ 'quote': i
+ 'tool': 
+ 'music':
+ 'image':
+ 'encyclopedia':
+ 'term': 
+ 'note': icon 
+ 'date':
+ 'author'
+ 'tags
+ 'project'
+ 'progress':
+ 'file': icon 
+ 'dash': icon 
+ 'link'
+ 'true':
+ 'false': 
